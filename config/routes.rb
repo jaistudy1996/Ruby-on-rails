@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'greeter/hello' => "greeter#hello"    # the # symbols shows that this is an action (method)
+
+  get 'greeter/goodbye' => "greeter#goodbye"
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

@@ -1,0 +1,8 @@
+<h1>Greeter#hello</h1>
+<p>Find me in app/views/greeter/hello.html.erb</p>
+<p>The sample name is : <%= @name %></p> 
+<p>And the time is: <%= @time %></p>
+<p>This is custom formatted time: <%= formatted_time(@time) %></p>
+<p>This page was displayed : <%= @times_displayed%> times</p>
+<p>This is a link_to helper used: <%= link_to(@name, 'http://www.google.com') %> </p>
+<p>This is a using _path to link to a variable : <%= link_to("goodbye", greeter_goodbye_path)%></p>
